@@ -1,4 +1,6 @@
-Lung X-ray Segmentation using Dummy U-Net
+**Lung X-ray Segmentation using U-Net**
+
+
 This project demonstrates a basic semantic segmentation pipeline using a Dummy U-Net architecture on the Montgomery County Chest X-ray Set. The goal is to segment lungs from chest X-ray images using PyTorch.
 
 📂 Dataset
