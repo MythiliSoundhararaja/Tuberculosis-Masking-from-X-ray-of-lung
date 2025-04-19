@@ -1,0 +1,13 @@
+dataset link: https://openi.nlm.nih.gov/imgs/collections/NLM-MontgomeryCXRSet.zip
+
+you can download it as a zip file. then you can unzip it and put it in the folder, I mentioned in the code:
+
+this is the data flow in the dataset be like:
+
+dataset/
+├── MontgomerySet/
+│   ├── CXR_png/               # Chest X-ray images
+│   ├── ManualMask/
+│   │   ├── leftMask/          # Left lung masks
+│   │   ├── rightMask/         # Right lung masks
+│   └── ClinicalReadings/      # Extra metadata (not used here)
